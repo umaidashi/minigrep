@@ -20,3 +20,15 @@ if let Ok(num) = String::from("1").parse::<i32>() {
     println!("num is {}", num);
 }
 ```
+
+## ライブラリクレートへ（切り出し）
+
+```rust
+extern crate minigrep;
+
+use minigrep::Config;
+```
+
+`extern crate minigrep;` は、Cargo が minigrep クレートをビルドするために必要です。
+
+`use minigrep::Config;` は、minigrep クレートの Config 型を使用するために必要です。
