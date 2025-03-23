@@ -58,3 +58,4 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
 
 # 12.5 Env
 
+## to_lowercase() は3章ではなく新しくメモリを確保する -> String
