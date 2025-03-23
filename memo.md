@@ -56,4 +56,5 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
 
 言い換えると、コンパイラにsearch関数に返されるデータは、 search関数にcontents引数で渡されているデータと同期間生きることを教えています。 
 
+# 12.5 Env
 
