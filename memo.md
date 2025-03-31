@@ -37,6 +37,8 @@ use minigrep::Config;
 
 `use minigrep::Config;` は、minigrep クレートの Config 型を使用するために必要です。
 
+→ `extern crate minigrep` の書き方は古い、不要
+
 # 12.4 TDD
 
 失敗するテストを書き、走らせて想定通りの理由で失敗することを確かめる。
