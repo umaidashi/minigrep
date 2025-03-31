@@ -19,6 +19,7 @@ impl Config {
         let query = args[1].clone();
         let filename = args[2].clone();
 
+        // NOTE: 値が設定されているかどうかだけみたいので、 `is_err()` を使っている
         let case_sensitive = env::var("CASE_INSENSITIVE").is_err();
 
         Ok(Config {
